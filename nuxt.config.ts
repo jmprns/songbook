@@ -10,10 +10,6 @@ export default defineNuxtConfig({
     '@nuxt/devtools',
     '@invictus.codes/nuxt-vuetify',
     '@nuxtjs/device',
-    '@vee-validate/nuxt',
-    '@vite-pwa/nuxt',
-    '@pinia/nuxt',
-    '@pinia-plugin-persistedstate/nuxt',
   ],
   css: [
     '@mdi/font/css/materialdesignicons.min.css',
@@ -22,21 +18,7 @@ export default defineNuxtConfig({
     refreshOnResize: true
   },
   vuetify: vuetify,
-  pwa: pwa,
   pinia: pinia,
-  runtimeConfig: {
-    public: {
-      appName: '',
-      appUrl: '',
-      apiUrl: ''
-    }
-  },
-  veeValidate: {
-    autoImports: true
-  },
-  build: {
-    transpile: ['pinia-plugin-persistedstate'],
-  },
   app: {
     baseURL: '/songbook/'
   }
