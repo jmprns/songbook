@@ -38,6 +38,6 @@ export default defineNuxtConfig({
     transpile: ['pinia-plugin-persistedstate'],
   },
   app: {
-    baseURL: '/songbook'
+    baseURL: '/songbook/'
   }
 })
