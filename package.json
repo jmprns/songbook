@@ -9,7 +9,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages --dotfiles --dist dist"
   },
   "devDependencies": {
     "@invictus.codes/nuxt-vuetify": "^0.3.0",
